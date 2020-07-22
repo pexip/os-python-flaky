@@ -1,0 +1,3 @@
+version=3
+opts=uversionmangle=s/(rc|a|b|c)/~$1/,filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/flaky-$1\.tar\.gz/ \
+https://github.com/box/flaky/releases .*/archive/v?(.+)\.tar\.gz

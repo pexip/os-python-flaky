@@ -1,0 +1,87 @@
+python-flaky (3.7.0-1) unstable; urgency=low
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Tristan Seligmann ]
+  * New upstream release.
+  * Declare rootless build.
+  * Bump debhelper-compat to 13.
+  * Switch to dh-sequence-*.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Wed, 22 Jul 2020 11:19:08 +0200
+
+python-flaky (3.6.1-3) unstable; urgency=medium
+
+  * Drop python2 support; Closes: #937758
+
+ -- Sandro Tosi <morph@debian.org>  Mon, 13 Apr 2020 22:43:32 -0400
+
+python-flaky (3.6.1-2) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Bump Standards-Version to 4.4.1.
+
+  [ Sandro Tosi ]
+  * Dont run unittests for python2 binary, to reduce pytest rdeps
+
+ -- Sandro Tosi <morph@debian.org>  Mon, 13 Apr 2020 19:42:25 -0400
+
+python-flaky (3.6.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Fix tests for new pytest and run nosetests too.
+  * d/clean: Clean .pytest_cache.
+  * d/source/options: Ignore .egg-info.
+
+ -- Ondřej Nový <onovy@debian.org>  Thu, 08 Aug 2019 09:53:51 +0200
+
+python-flaky (3.3.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * d/control: Set Vcs-* to salsa.debian.org
+  * d/copyright: Use https protocol in Format field
+  * Convert git repository from git-dpm to gbp layout
+  * Use debhelper-compat instead of debian/compat.
+  * Drop PyPy support
+  * Bump Standards-Version to 4.4.0 (no changes).
+  * Bump debhelper compat level to 12
+  * Enable autopkgtest-pkg-python testsuite
+
+ -- Ondřej Nový <onovy@debian.org>  Mon, 22 Jul 2019 21:33:53 +0200
+
+python-flaky (3.3.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 3.9.8 (no changes).
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Sat, 27 Aug 2016 13:22:28 +0200
+
+python-flaky (3.1.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 3.9.7 (no changes).
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Wed, 06 Apr 2016 23:02:32 +0200
+
+python-flaky (3.1.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Drop XB-Python-Egg-Name.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Wed, 17 Feb 2016 18:02:43 +0200
+
+python-flaky (3.0.2-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Wed, 20 Jan 2016 01:35:43 +0200
+
+python-flaky (2.4.1-1) unstable; urgency=low
+
+  * Initial upload (closes: #808605).
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Mon, 21 Dec 2015 22:37:41 +0200
