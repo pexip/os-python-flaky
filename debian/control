@@ -1,8 +1,9 @@
 Source: python-flaky
 Section: python
 Priority: optional
-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
-Uploaders: Tristan Seligmann <mithrandi@debian.org>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+XSBC-Pexip-Original-Uploaders: Tristan Seligmann <mithrandi@debian.org>
 Build-Depends:
  debhelper-compat (= 13),
  dh-sequence-python3,
@@ -18,6 +19,7 @@ Vcs-Git: https://salsa.debian.org/python-team/modules/python-flaky.git
 Vcs-Browser: https://salsa.debian.org/python-team/modules/python-flaky
 Testsuite: autopkgtest-pkg-python
 Rules-Requires-Root: no
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ bullseye
 
 Package: python3-flaky
 Architecture: all

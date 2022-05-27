@@ -1,3 +1,9 @@
+python-flaky (3.7.0-1pexip1) pexip; urgency=medium
+
+  * Prepare Pexip packaging
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Fri, 27 May 2022 09:54:58 +0000
+
 python-flaky (3.7.0-1) unstable; urgency=low
 
   [ Debian Janitor ]
